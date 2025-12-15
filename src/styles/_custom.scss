@@ -1,0 +1,45 @@
+$primary: #1B3C53;
+$secondary: #234C6A;
+$tertiary: #456882;
+$text: #E3E3E3;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background-color:$primary;
+}
+
+.primary{
+  background-color:$primary;
+}
+
+.secondary{
+  background-color:$secondary;
+}
+
+.tertiary{
+  background-color:$tertiary;
+}
+
+.primary-text{
+  color:$primary;
+}
+
+.secondary-text{
+  color:$secondary;
+}
+
+.tertiary-text{
+  color:$tertiary;
+}
+
+.text{
+  color: $text;
+}
+
+.white{
+  background-color: $text;
+}
